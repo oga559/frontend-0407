@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=”UTF-8″>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自己紹介</title>
+    <link type="text/css" rel="stylesheet" href="../css/app.css">
+    <link type="text/css" rel="stylesheet" href="../css/modal.css">
+</head>
+<body>
+    <header class="header">
+            <h1 class="logo">自己紹介</h1>
+            <ul class="nav">
+                <li><a href="gallery.html">Home</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+    </header>
+
+    <form action="" method="get">
+        <label for="name">名前 </label>
+        <input type="text" name="name" id="name"/>
+        <label for="email">メアド </label>
+        <input type="email" name="email" id="email"/>
+        <button type="button" id="modalButton">送信</button>
+    </form>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <h1>送信しますか？</h1>
+            <span id="modalClose">×</span>
+        </div>
+    </div>
+    <script type="text/javascript" rel="script" src="../js/main.js"></script>
+</body>
+</html>
